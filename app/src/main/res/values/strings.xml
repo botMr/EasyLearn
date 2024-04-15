@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EasyLearn</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="enter">Войти</string>
+    <string name="easylern_text">Учитесь легко</string>
+    <string name="easywrite_text">Пишите легко</string>
+    <string name="reg">Регистрация</string>
+    <string name="email">Email</string>
+    <string name="pass">Пароль</string>
+    <string name="rep_pass">Повторите пароль</string>
+    <string name="ent">Вход</string>
+    <string name="welcome_text">Привет ученик!</string>
+    <string name="text_questoin">Что будем изучать сегодня?</string>
+    <string name="text_selecting_topics">Привет! Я твой помощник в написании сочинений! Давай для начала определимся с направлением</string>
+    <string-array name="theme_array">
+        <item>внутренний мир и его качества</item>
+        <item>отношение человека к другому человеку, нравственные идеалы и выбор между добром и злом</item>
+        <item>познание человеком самого себя</item>
+        <item>свобода человека и её ограничения</item>
+        <item>семья, род; семейные ценности и традиции</item>
+        <item>человек и общество</item>
+        <item>родина, государство, гражданская позиция человека</item>
+        <item>природа и человек</item>
+        <item>наука и человек</item>
+        <item>искусство и человек</item>
+        <item>язык и языковая личность</item>
+    </string-array>
+    <string-array name="sub_theme_array">
+        <item>введения</item>
+        <item>аргумента</item>
+        <item>заключения</item>
+    </string-array>
+    <string name="zero">0:00</string>
+</resources>

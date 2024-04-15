@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434064131010",
+    "project_id": "easylearn-519f1",
+    "storage_bucket": "easylearn-519f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434064131010:android:892e254ab146ff753e4c5b",
+        "android_client_info": {
+          "package_name": "com.example.easylearn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2IfhmOycHCFCsNFI7kB4BlwabxBFP8F4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

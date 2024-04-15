@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cht_ai_background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idMistakes"
+        android:layout_below="@+id/backView"
+        android:layout_above="@+id/scrollMessage"/>
+
+    <ScrollView
+        android:id="@+id/scrollMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/idRelativeView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true">
+
+            <EditText
+                android:id="@+id/mistakesEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/sendMistakesCheck"
+                android:background="@drawable/round_shape"
+                android:hint="Enter Message"
+                android:padding="16dp" />
+
+            <ImageButton
+                android:id="@+id/sendMistakesCheck"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="1dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="8dp"
+                android:src="@drawable/send_message" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/backView"
+        android:layout_width="match_parent"
+        android:background="@color/background_main"
+        android:layout_height="40dp">
+
+        <ImageButton
+            android:id="@+id/back_mistakes_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/back_btn"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

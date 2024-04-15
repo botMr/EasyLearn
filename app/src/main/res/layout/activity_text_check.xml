@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cht_ai_background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idChat"
+        android:layout_below="@+id/backView"
+        android:layout_above="@+id/textScroll"/>
+
+    <ScrollView
+        android:id="@+id/textScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/idRelativeView">
+
+            <EditText
+                android:id="@+id/messageEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_shape"
+                android:layout_centerInParent="true"
+                android:hint="Enter Message"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:gravity="top|start"
+                android:scrollbars="vertical|horizontal"
+                android:padding="16dp"
+                android:layout_toLeftOf="@+id/sendButton"/>
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/sendButton"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="1dp"
+                android:padding="8dp"
+                android:src="@drawable/send_message"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:id="@+id/backView"
+        android:layout_width="match_parent"
+        android:background="@color/background_main"
+        android:layout_height="40dp">
+
+        <ImageButton
+            android:id="@+id/back_Button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/back_btn"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
