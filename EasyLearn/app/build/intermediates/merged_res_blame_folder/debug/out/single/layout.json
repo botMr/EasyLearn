@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\activity_ai_screen.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_ai_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\chat_item.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\chat_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\activity_ai_asistenet_screen.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_ai_asistenet_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\activity_log_reg_screen.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_log_reg_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\activity_log_screen.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_log_screen.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-mergeDebugResources-38:/layout/activity_ai_screen.xml",
+        "source": "com.example.easylearn.app-main-41:/layout/activity_ai_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\activity_reg_screen.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_reg_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\activity_test.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-mergeDebugResources-38:\\layout\\splash_screen.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\splash_screen.xml"
+    }
+]

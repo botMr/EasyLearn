@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_lib_button.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\lib_button.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_activity_log_reg_screen.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_log_reg_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xhdpi_ic_launcher_logo.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xhdpi/ic_launcher_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_button_materials.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\button_materials.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-hdpi_ic_launcher_logo_round.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-hdpi/ic_launcher_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_ai_logo.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\ai_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_splash_screen.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_activity_ai_screen.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_ai_screen.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-mdpi_ic_launcher_logo_round.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-mdpi/ic_launcher_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\font_marmelad.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\font\\marmelad.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xxxhdpi_ic_launcher_logo_foreground.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xxxhdpi/ic_launcher_logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-hdpi_ic_launcher_logo.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-hdpi/ic_launcher_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_register_button.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\register_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\font_philosopher.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\font\\philosopher.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_activity_ai_asistenet_screen.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_ai_asistenet_screen.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-mdpi_ic_launcher_logo_foreground.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-mdpi/ic_launcher_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_oval_shape_material_button.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\oval_shape_material_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_activity_test.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\font_philosopher_bold.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\font\\philosopher_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\font_roboto.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\font\\roboto.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xxxhdpi_ic_launcher_logo.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xxxhdpi/ic_launcher_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/drawable_ic_launcher_logo_background.xml.flat",
+        "source": "com.example.easylearn.app-main-41:/drawable/ic_launcher_logo_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_chat_item.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\chat_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_home_logo.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\home_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_oval_shape_ai_button.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\oval_shape_ai_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_oval_shape.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\oval_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_enter_orange.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\enter_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_activity_reg_screen.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_reg_screen.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xhdpi_ic_launcher_logo_foreground.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xhdpi/ic_launcher_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_reg_orange.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\reg_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\font_raleway_semibold.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\font\\raleway_semibold.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_logo_round.xml.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-anydpi-v26/ic_launcher_logo_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\layout_activity_log_screen.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\layout\\activity_log_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_mater_button.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\mater_button.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_reset_passworld.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\reset_passworld.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-hdpi_ic_launcher_logo_foreground.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-hdpi/ic_launcher_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_button_lib.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\button_lib.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_ai_button.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\ai_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xhdpi_ic_launcher_logo_round.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xhdpi/ic_launcher_logo_round.webp"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_logo_foreground.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xxhdpi/ic_launcher_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_messages_sendicon.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\messages_sendicon.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_logo.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xxhdpi/ic_launcher_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_logo.xml.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-anydpi-v26/ic_launcher_logo.xml"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xxxhdpi_ic_launcher_logo_round.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xxxhdpi/ic_launcher_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_back_logo.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\back_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_enter_button.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\enter_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_account_logo.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\account_logo.png"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_logo_round.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-xxhdpi/ic_launcher_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-merged_res-39:\\drawable_library_logo.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.2\\com.example.easylearn.app-main-41:\\drawable\\library_logo.png"
+    },
+    {
+        "merged": "com.example.easylearn.app-merged_res-39:/mipmap-mdpi_ic_launcher_logo.webp.flat",
+        "source": "com.example.easylearn.app-main-41:/mipmap-mdpi/ic_launcher_logo.webp"
+    }
+]
