@@ -19,4 +19,4 @@
 ![Снимок экрана 2024-05-15 214948](https://github.com/botMr/EasyLearn/assets/75548834/f4358620-d2c4-494d-a65b-a66482439f77)
 ![Снимок экрана 2024-05-15 215009](https://github.com/botMr/EasyLearn/assets/75548834/9368f38b-24f8-4bc2-97b8-5cd72f5d1cc1)
 
-Ссылка на скачивание apk приложения: https://disk.yandex.ru/d/dbvdxYLY7zpqhg
+Ссылка на скачивание apk приложения: https://disk.yandex.ru/d/oSUnjr6qGyWX2Q
