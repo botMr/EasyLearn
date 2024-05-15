@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".accountFragment.SettingsAccountActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/save_new_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light"
+        android:src="@drawable/save_svgrepo_com"
+        app:layout_constraintBottom_toTopOf="@+id/guideline80"
+        app:layout_constraintEnd_toStartOf="@+id/guideline78"
+        app:layout_constraintTop_toTopOf="@+id/guideline79"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/backAccount"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_shape"
+        android:backgroundTint="@color/light"
+        android:src="@drawable/back_btn"
+        app:layout_constraintBottom_toTopOf="@+id/guideline80"
+        app:layout_constraintStart_toStartOf="@+id/guideline77"
+        app:layout_constraintTop_toTopOf="@+id/guideline79"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_settings"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="end"
+        android:src="@drawable/account_icon"
+        app:layout_constraintBottom_toTopOf="@+id/guideline81"
+        app:layout_constraintEnd_toStartOf="@+id/guideline78"
+        app:layout_constraintStart_toStartOf="@+id/guideline77"
+        app:layout_constraintTop_toTopOf="@+id/guideline80"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/email_edit_settings"
+        android:layout_width="271dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_shape"
+        android:hint="@string/email"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline82"
+        app:layout_constraintEnd_toStartOf="@+id/guideline78"
+        app:layout_constraintStart_toStartOf="@+id/guideline77"
+        app:layout_constraintTop_toTopOf="@+id/guideline85"
+        tools:ignore="Autofill,MissingConstraints,TextFields" />
+
+
+    <ImageView
+        android:id="@+id/edit_new_email"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/edit_account"
+        app:layout_constraintBottom_toBottomOf="@+id/email_edit_settings"
+        app:layout_constraintEnd_toEndOf="@+id/email_edit_settings"
+        app:layout_constraintTop_toTopOf="@+id/email_edit_settings"
+        app:layout_constraintVertical_bias="0.444"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/password_edit_settings"
+        android:layout_width="271dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_shape"
+        android:hint="@string/password"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline83"
+        app:layout_constraintEnd_toStartOf="@+id/guideline78"
+        app:layout_constraintStart_toStartOf="@+id/guideline77"
+        app:layout_constraintTop_toTopOf="@+id/guideline82"
+        tools:ignore="Autofill,MissingConstraints,TextFields" />
+
+
+    <ImageView
+        android:id="@+id/edit_new_password"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/edit_account"
+        app:layout_constraintBottom_toBottomOf="@+id/password_edit_settings"
+        app:layout_constraintEnd_toEndOf="@+id/password_edit_settings"
+        app:layout_constraintTop_toTopOf="@+id/password_edit_settings"
+        app:layout_constraintVertical_bias="0.444"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/username_edit_settings"
+        android:layout_width="271dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_shape"
+        android:hint="Логин"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline84"
+        app:layout_constraintEnd_toStartOf="@+id/guideline78"
+        app:layout_constraintStart_toStartOf="@+id/guideline77"
+        app:layout_constraintTop_toTopOf="@+id/guideline83"
+        tools:ignore="Autofill,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/edit_new_username"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/edit_account"
+        app:layout_constraintBottom_toBottomOf="@+id/username_edit_settings"
+        app:layout_constraintEnd_toEndOf="@+id/username_edit_settings"
+        app:layout_constraintTop_toTopOf="@+id/username_edit_settings"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/username_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/styrene_medium"
+        android:text="Username!"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline85"
+        app:layout_constraintEnd_toStartOf="@+id/guideline78"
+        app:layout_constraintStart_toStartOf="@+id/guideline77"
+        app:layout_constraintTop_toTopOf="@+id/guideline81"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.17" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.37" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.43"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

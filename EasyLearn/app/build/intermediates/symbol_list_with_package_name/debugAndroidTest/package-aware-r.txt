@@ -1,3 +1,0 @@
-com.example.easylearn.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

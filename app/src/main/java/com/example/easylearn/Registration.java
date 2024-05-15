@@ -26,14 +26,15 @@ public class Registration extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityRegistrationBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        HideSystemUI.hideSystemUI(this);
 
         binding.button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (binding.emailEdit.getText().toString().isEmpty() || binding.passEdit.getText().toString().isEmpty() ||
-                binding.reppassEdit.getText().toString().isEmpty()){
+                if (binding.usernameEdit.getText().toString().isEmpty() || binding.emailEdit.getText().toString().isEmpty() ||
+                binding.passEdit.getText().toString().isEmpty()){
                     Toast.makeText(getApplicationContext(), "Поля не могут быть пустыми", Toast.LENGTH_SHORT).show();
-                } else if (binding.passEdit.getText().toString().equals(binding.reppassEdit.getText().toString())) {
+                } else {
                     FirebaseAuth.getInstance().createUserWithEmailAndPassword(binding.emailEdit.getText().toString(), binding.passEdit.getText().toString())
                             .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
@@ -42,8 +43,10 @@ public class Registration extends AppCompatActivity {
                                         HashMap<String, String> userInfo = new HashMap<>();
                                         userInfo.put("email", binding.emailEdit.getText().toString());
                                         userInfo.put("password", binding.passEdit.getText().toString());
-                                        FirebaseDatabase.getInstance("https://easylearn-519f1-default-rtdb.europe-west1.firebasedatabase.app/").getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                                .setValue(userInfo);
+                                        userInfo.put("profileImage","");
+                                        userInfo.put("username", binding.usernameEdit.getText().toString());
+                                        FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                                        .setValue(userInfo);
                                         startActivity(new Intent(Registration.this, HomePage.class));
                                     }
                                 }
@@ -59,5 +62,9 @@ public class Registration extends AppCompatActivity {
                 startActivity(new Intent(Registration.this, Authorization.class));
             }
         });
+    }
+    public void onResume(){
+        super.onResume();
+        HideSystemUI.hideSystemUI(this);
     }
 }

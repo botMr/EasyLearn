@@ -3,11 +3,14 @@ plugins {
     id 'com.google.gms.google-services'
 }
 
+apply plugin: 'realm-android'
+
 android {
     namespace 'com.example.easylearn'
     compileSdk 34
 
     defaultConfig {
+        applicationId "com.mongodb.example-realm-application"
         applicationId "com.example.easylearn"
         minSdk 29
         targetSdk 34
@@ -42,22 +45,36 @@ android {
     buildFeatures{
         viewBinding true
     }
+    viewBinding{
+        enabled = true
+    }
+}
+
+realm {
+    syncEnabled = true
 }
 
 dependencies {
 
     implementation 'androidx.core:core-splashscreen:1.0.1'
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
-    implementation platform('com.google.firebase:firebase-bom:32.7.4')
-    implementation 'com.google.firebase:firebase-analytics'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.amazonaws:aws-java-sdk-s3:1.11.1004'
     implementation "com.squareup.okhttp3:okhttp:4.12.0"
     implementation 'org.apache.commons:commons-text:1.9'
-    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'org.apache.commons:commons-lang3:3.12.0';
     implementation "androidx.cardview:cardview:1.0.0"
-    implementation "com.google.android.exoplayer:exoplayer:2.19.1"
-    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-database")
+    implementation("com.google.firebase:firebase-storage")
+    implementation "androidx.room:room-runtime:2.6.1"
+    implementation 'com.google.code.gson:gson:2.10.1'
+    annotationProcessor "androidx.room:room-compiler:2.6.1"
+
+
 
     implementation libs.appcompat
     implementation libs.material

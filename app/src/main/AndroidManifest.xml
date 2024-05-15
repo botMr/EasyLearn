@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.HIDE_NAVIGATION" />
 
     <application
         android:allowBackup="true"
@@ -17,26 +18,33 @@
         android:theme="@style/Theme.EasyLearn"
         tools:targetApi="31">
         <activity
-            android:name=".BookActivity"
+            android:name=".accountFragment.SettingsAccountActivity"
             android:exported="false" />
         <activity
-            android:name=".AudioActivity"
+            android:name=".libraryFragment.BookActivity"
             android:exported="false" />
         <activity
-            android:name=".GptActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustPan"
-            />
+            android:name=".libraryFragment.AudioActivity"
+            android:exported="false" />
         <activity
-            android:name=".TextMistakesChecker"
-            android:exported="false"
-            android:windowSoftInputMode="adjustPan"
-            />
+            android:name=".libraryFragment.BookInfoActivity"
+            android:exported="false" />
         <activity
-            android:name=".TextCheck"
+            android:name=".practiceFragment.NoteActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustPan"
-            />
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".learnFragment.Quiz.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".learnFragment.Theory.TheoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".learnFragment.Dictionary.ExplainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".learnFragment.Dictionary.DictionaryActivity"
+            android:exported="false" />
         <activity
             android:name=".HomePage"
             android:exported="false" />

@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context=".Authorization">
 
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -24,28 +25,31 @@
         android:id="@+id/imageView"
         android:layout_width="156dp"
         android:layout_height="158dp"
-        android:layout_marginTop="108dp"
-        android:src="@drawable/logo"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/new_logo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.25"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:autoSizeMaxTextSize="1000dp"
         android:autoSizeMinTextSize="1dp"
         android:autoSizeTextType="uniform"
-        android:fontFamily="@font/tenor_sans"
+        android:fontFamily="@font/styrene_medium"
         android:text="@string/easylern_text"
         android:textSize="@dimen/_20sdp"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <TextView
         android:id="@+id/textView2"
@@ -55,7 +59,7 @@
         android:autoSizeMaxTextSize="1000dp"
         android:autoSizeMinTextSize="1dp"
         android:autoSizeTextType="uniform"
-        android:fontFamily="@font/tenor_sans"
+        android:fontFamily="@font/styrene_medium"
         android:text="@string/easywrite_text"
         android:textSize="@dimen/_32sdp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -66,33 +70,35 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/reg_button"
+        android:id="@+id/login_button"
         android:layout_width="297dp"
         android:layout_height="60dp"
         android:layout_marginTop="8dp"
-        android:backgroundTint="@color/registration_button"
-        android:fontFamily="@font/roboto_bold"
-        android:text="@string/registration"
-        android:textSize="22sp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/styrene_medium"
+        android:text="@string/login"
+        android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <Button
-        android:id="@+id/enter_button"
+        android:id="@+id/reg_button"
         android:layout_width="297dp"
         android:layout_height="60dp"
-        android:backgroundTint="@color/enter_button"
-        android:fontFamily="@font/roboto_bold"
-        android:text="@string/enter"
-        android:textSize="22sp"
+        android:backgroundTint="@color/light"
+        android:fontFamily="@font/styrene_medium"
+        android:text="@string/registration"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/reg_button"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
         app:layout_constraintVertical_bias="0.0" />
+
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -110,27 +116,13 @@
         app:layout_constraintGuide_begin="20dp"
         app:layout_constraintGuide_percent="0.8" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="@+id/guideline4"
-        tools:ignore="MissingConstraints">
-
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.7"/>
+        app:layout_constraintGuide_percent="0.7" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
@@ -138,7 +130,23 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.9"/>
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.34"/>
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -1,18 +1,22 @@
 <resources>
     <string name="app_name">EasyLearn</string>
     <string name="registration">Зарегистрироваться</string>
-    <string name="enter">Войти</string>
+    <string name="login">Войти</string>
     <string name="easylern_text">Учитесь легко</string>
     <string name="easywrite_text">Пишите легко</string>
     <string name="reg">Регистрация</string>
+    <string name="username">Логин</string>
     <string name="email">Email</string>
-    <string name="pass">Пароль</string>
-    <string name="rep_pass">Повторите пароль</string>
+    <string name="password">Пароль</string>
     <string name="ent">Вход</string>
     <string name="welcome_text">Привет ученик!</string>
     <string name="text_questoin">Что будем изучать сегодня?</string>
     <string name="text_selecting_topics">Привет! Я твой помощник в написании сочинений! Давай для начала определимся с направлением</string>
-    <string-array name="theme_array">
+    <string name="learnMaterials_text">Учебные материалы</string>
+    <string name="theory_text">Теория по заданиям</string>
+    <string name="explanation">Определение</string>
+    <string-array name="spinner_topic">
+        <item>Выберите тему:</item>
         <item>внутренний мир и его качества</item>
         <item>отношение человека к другому человеку, нравственные идеалы и выбор между добром и злом</item>
         <item>познание человеком самого себя</item>
@@ -25,10 +29,13 @@
         <item>искусство и человек</item>
         <item>язык и языковая личность</item>
     </string-array>
-    <string-array name="sub_theme_array">
-        <item>введения</item>
-        <item>аргумента</item>
-        <item>заключения</item>
+    <string-array name="spinner_example">
+        <item>Выберите пример:</item>
+        <item>введение</item>
+        <item>аргумент</item>
+        <item>заключение</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="zero">0:00</string>
 </resources>

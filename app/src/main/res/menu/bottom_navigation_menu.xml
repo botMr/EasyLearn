@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:title="Главная"
-        android:id="@+id/home"
-        android:icon="@drawable/home_icon"/>
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_icon"
+        app:cnb_backgroundColor="@color/blue"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
 
-    <item android:title="Ассистент"
-        android:id="@+id/ai_assistant"
-        android:icon="@drawable/search_icon"/>
-
-    <item android:title="Тетрадь"
-        android:id="@+id/note"
-        android:icon="@drawable/notes_icon"/>
+    <item android:title="Практика"
+        android:id="@+id/nav_practic"
+        android:icon="@drawable/bookmark_icon"
+        app:cnb_backgroundColor="@color/blue"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
 
     <item android:title="Библиотека"
-        android:id="@+id/library"
-        android:icon="@drawable/library_icon"/>
+        android:id="@+id/nav_library"
+        android:icon="@drawable/book_icon"
+        app:cnb_backgroundColor="@color/blue"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
 
     <item android:title="Аккаунт"
-        android:id="@+id/account"
-        android:icon="@drawable/account_icon"/>
+        android:id="@+id/nav_account"
+        android:icon="@drawable/account_icon"
+        app:cnb_backgroundColor="@color/blue"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
 
 </menu>

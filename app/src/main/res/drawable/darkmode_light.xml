@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/> <!-- Белый цвет фона -->
+            <size android:width="24dp" android:height="24dp"/> <!-- Размер белого круга -->
+        </shape>
+    </item>
+    <item android:drawable="@drawable/sun_mode" android:gravity="center"/>
+</layer-list>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HorizontalBottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/ActiveText</item>
+        <item name="itemTextAppearanceInactive">@style/InactiveText</item>
+    </style>
+
+    <style name="ActiveText" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="InactiveText" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:dropDownWidth">350dp</item> <!-- Указывается ширина в dp -->
+        <item name="android:dropDownHeight">300dp</item> <!-- Указывается высота в dp -->
+    </style>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <!-- Add custom styles for your BottomSheetDialog here -->
+    </style>
+
+</resources>

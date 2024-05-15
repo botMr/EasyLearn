@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "434064131010",
-    "project_id": "easylearn-519f1",
-    "storage_bucket": "easylearn-519f1.appspot.com"
+    "project_number": "263357984302",
+    "firebase_url": "https://easylearn-faf7d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "easylearn-faf7d",
+    "storage_bucket": "easylearn-faf7d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:434064131010:android:892e254ab146ff753e4c5b",
+        "mobilesdk_app_id": "1:263357984302:android:dfa9e38baed765943d79bf",
         "android_client_info": {
           "package_name": "com.example.easylearn"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD2IfhmOycHCFCsNFI7kB4BlwabxBFP8F4"
+          "current_key": "AIzaSyDsav-wpKP8XhJYXUJIc62NHpUJnzwqGyQ"
         }
       ],
       "services": {

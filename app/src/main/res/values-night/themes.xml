@@ -4,4 +4,6 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+    <style name="ScreenBackgroundBook"><item name="android:background">@color/black</item></style>
+    <style name="TextColorBook"><item name="android:textColor">@color/white</item></style>
 </resources>
