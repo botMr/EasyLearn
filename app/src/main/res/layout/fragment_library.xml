@@ -71,6 +71,7 @@
         app:queryHint="Поиск книг..."
         tools:ignore="MissingConstraints" />
 
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/bookSlider"
         android:layout_width="match_parent"

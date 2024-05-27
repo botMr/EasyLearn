@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/white"
     tools:context=".learnFragment.Quiz.QuizActivity">
 
     <TextView
@@ -23,7 +24,6 @@
         tools:ignore="MissingConstraints" />
 
     <ScrollView
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="100dp"
@@ -44,6 +44,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:orientation="vertical"
+            android:backgroundTint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"

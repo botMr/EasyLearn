@@ -33,7 +33,9 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class ApiConnection {
+
     public static void callGpt(String question, Context context, TextView ai_response) {
+
         final MediaType JSON = MediaType.get("application/json; charset=utf-8");
         OkHttpClient client = new OkHttpClient.Builder()
                 .readTimeout(60, TimeUnit.SECONDS)
@@ -74,8 +76,8 @@ public class ApiConnection {
         RequestBody body = RequestBody.create(json.toString(), JSON);
         Request request = new Request.Builder()
                 .url("https://llm.api.cloud.yandex.net/foundationModels/v1/completion")
-                .header("Authorization", "Api-Key AQVN2ZtcrG--UFFQUFFLv2yVHdenB5oAm8KOHUXQ")
-                .header("x-folder-id", "b1g1u2pbs0tgd2e5sgqd")
+                .header("Authorization", ApiKeys.API_GPT_KEY)
+                .header("x-folder-id", ApiKeys.API_GPT_FOLDER)
                 .post(body)
                 .build();
 
@@ -229,5 +231,83 @@ public class ApiConnection {
                 }
             }
         }.execute(url);
+    }
+    public static void callGptTextCheck(String text_check, Context context, TextView ai_response) {
+        final MediaType JSON = MediaType.get("application/json; charset=utf-8");
+        OkHttpClient client = new OkHttpClient.Builder()
+                .readTimeout(60, TimeUnit.SECONDS)
+                .build();
+        //okhttp
+        JSONObject completionOptions = new JSONObject();
+        try {
+            completionOptions.put("stream", false);
+            completionOptions.put("temperature", 0.2);
+            completionOptions.put("maxTokens", "1200");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        JSONArray messages = new JSONArray();
+        JSONObject userMessage = new JSONObject();
+        JSONObject systemMessage = new JSONObject();
+        try {
+            systemMessage.put("role", "system");
+            systemMessage.put("text", "Ты проверяющий сочинения учеников писавших ЕГЭ по русскому языку. Проверь сочинение . В качестве ответа напиши примерный балл сочинения используя критерии из ФИПИ по ЕГЭ 2024 года. Также укажи примерный бал по каждому из критериев.");
+            userMessage.put("role", "user");
+            userMessage.put("text", text_check);
+            messages.put(systemMessage);
+            messages.put(userMessage);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        JSONObject json = new JSONObject();
+        try {
+            json.put("modelUri", "ds://bt1o0ec5athgpmmuoonk");
+            json.put("completionOptions", completionOptions);
+            json.put("messages", messages);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        RequestBody body = RequestBody.create(json.toString(), JSON);
+        Request request = new Request.Builder()
+                .url("https://llm.api.cloud.yandex.net/foundationModels/v1/completion")
+                .header("Authorization", ApiKeys.API_GPT_KEY)
+                .header("x-folder-id", ApiKeys.API_GPT_FOLDER)
+                .post(body)
+                .build();
+
+
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(@NonNull Call call, @NonNull IOException e) {
+                Toast.makeText(context, "Не удалось загрузить ответ потому что" + e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+                if (response.isSuccessful()) {
+                    String text = response.body().string();
+                    try {
+                        JSONObject jsonObject = new JSONObject(text);
+                        JSONObject resultObject = jsonObject.getJSONObject("result");
+                        JSONArray alternativesArray = resultObject.getJSONArray("alternatives");
+                        JSONObject messageObject = alternativesArray.getJSONObject(0).getJSONObject("message");
+                        String textValue = messageObject.getString("text");
+                        ((Activity) context).runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                ai_response.setText(textValue);
+                            }
+                        });
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    Toast.makeText(context, "Не удалось загрузить ответ потому что" + response.body().string(), Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".AboutUsActivity">
+
+    <ImageButton
+        android:id="@+id/backAccount"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_shape"
+        android:backgroundTint="@color/light"
+        android:src="@drawable/back_btn"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/easylearn_easylearn"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/styrene_medium"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="161dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

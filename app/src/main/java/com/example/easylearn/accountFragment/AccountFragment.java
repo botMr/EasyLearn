@@ -14,6 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.easylearn.BugReportSheet;
 import com.example.easylearn.HideSystemUI;
 import com.example.easylearn.LoadData;
 import com.example.easylearn.R;
@@ -29,7 +30,7 @@ public class AccountFragment extends Fragment {
     RecyclerView achieve_list;
     ArrayList<Achievement> achievement;
     AchievementAdapter adapter;
-    FloatingActionButton text_settings;
+    FloatingActionButton text_settings,about_us_alert,bug_report;
     LoadData loadData;
     public AccountFragment() {
         // Required empty public constructor
@@ -45,6 +46,8 @@ public class AccountFragment extends Fragment {
         note_count = view.findViewById(R.id.note_count);
         achieve_list = view.findViewById(R.id.achieve_list);
         text_settings = view.findViewById(R.id.text_settings);
+        about_us_alert = view.findViewById(R.id.about_us_alert);
+        bug_report = view.findViewById(R.id.bug_report);
 
         String text = "Привет, ";
         loadData = new LoadData().loadImage(image_username,username_account,text);
@@ -70,6 +73,22 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getContext(), SettingsAccountActivity.class));
+            }
+        });
+
+        about_us_alert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AboutUsSheet aboutUsSheet = new AboutUsSheet();
+                aboutUsSheet.show(getChildFragmentManager(),"aboutSheet");
+            }
+        });
+
+        bug_report.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BugReportSheet bugReportSheet = new BugReportSheet();
+                bugReportSheet.show(getFragmentManager(),"bugSheet");
             }
         });
 

@@ -83,8 +83,10 @@ public class NoteActivity extends AppCompatActivity {
         imageView_ai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               GptBottomSheet gptBottomSheet = new GptBottomSheet();
-               gptBottomSheet.show(getSupportFragmentManager(),"gptSheet");
+                String textCheck = editText_notes.getText().toString();
+                GptBottomSheet gptBottomSheet = new GptBottomSheet();
+                gptBottomSheet.setTextFromNoteActivity(textCheck);
+                gptBottomSheet.show(getSupportFragmentManager(),"gptSheet");
             }
         });
 

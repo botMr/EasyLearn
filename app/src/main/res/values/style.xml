@@ -15,13 +15,20 @@
         <item name="android:gravity">start</item>
     </style>
 
-    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
-        <item name="android:popupBackground">@android:color/white</item>
+    <style name="SpinnerStyleDark" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/round_shape</item>
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:dropDownWidth">350dp</item> <!-- Указывается ширина в dp -->
         <item name="android:dropDownHeight">300dp</item> <!-- Указывается высота в dp -->
     </style>
     <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
         <!-- Add custom styles for your BottomSheetDialog here -->
     </style>
+    <!-- res/values/styles.xml -->
+    <style name="SpinnerDropDownItemStyle" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 
 </resources>

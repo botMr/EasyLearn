@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinnerStyleDark" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/round_shape_dark</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="dropDownBackgroundTint">@color/white</item>
+        <item name="android:dropDownWidth">350dp</item> <!-- Указывается ширина в dp -->
+        <item name="android:dropDownHeight">300dp</item> <!-- Указывается высота в dp -->
+    </style>
+    <!-- res/values/styles.xml -->
+    <style name="SpinnerDropDownItemStyle" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

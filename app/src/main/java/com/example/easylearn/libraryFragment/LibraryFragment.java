@@ -1,9 +1,11 @@
 package com.example.easylearn.libraryFragment;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.widget.SearchView;
@@ -54,6 +56,9 @@ public class LibraryFragment extends Fragment {
         adapter.notifyDataSetChanged();
 
         searchBook = view.findViewById(R.id.searchBook);
+        EditText searchEditText = searchBook.findViewById(androidx.appcompat.R.id.search_src_text);
+        searchEditText.setHintTextColor(Color.BLACK);
+        searchEditText.setTextColor(Color.BLACK);
         searchBook.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {

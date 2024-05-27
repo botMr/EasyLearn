@@ -18,6 +18,9 @@
         android:theme="@style/Theme.EasyLearn"
         tools:targetApi="31">
         <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+        <activity
             android:name=".accountFragment.SettingsAccountActivity"
             android:exported="false" />
         <activity
