@@ -66,7 +66,7 @@ public class ApiConnection {
 
         JSONObject json = new JSONObject();
         try {
-            json.put("modelUri", "ds://bt129ld9votu7omq82qn");
+            json.put("modelUri", ApiKeys.API_GPT_MODEL_URI_ANSWER);
             json.put("completionOptions", completionOptions);
             json.put("messages", messages);
         } catch (JSONException e) {
@@ -121,7 +121,7 @@ public class ApiConnection {
                 String result = null;
                 OkHttpClient client = new OkHttpClient();
                 MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
-                String userKey = "f02c9109c44fd3fe773bb6f40338bbfd";
+                String userKey = ApiKeys.API_TEXT_RU;
                 String requestBody = "userkey=" + userKey + "&text=" + text;
                 RequestBody body = RequestBody.create(mediaType, requestBody);
                 Request request = new Request.Builder()
@@ -168,7 +168,7 @@ public class ApiConnection {
         String result = null;
         OkHttpClient client = new OkHttpClient();
         MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
-        String userKey = "f02c9109c44fd3fe773bb6f40338bbfd";
+        String userKey = ApiKeys.API_TEXT_RU;
         String json = "detail_view";
         String requestBody = "userkey=" + userKey + "&uid=" + uid + "&jsonvisible=" + json;
 
@@ -263,7 +263,7 @@ public class ApiConnection {
 
         JSONObject json = new JSONObject();
         try {
-            json.put("modelUri", "ds://bt1o0ec5athgpmmuoonk");
+            json.put("modelUri", ApiKeys.API_GPT_MODEL_URI_CHECK);
             json.put("completionOptions", completionOptions);
             json.put("messages", messages);
         } catch (JSONException e) {
