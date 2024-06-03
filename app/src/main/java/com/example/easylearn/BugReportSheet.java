@@ -31,7 +31,7 @@ public class BugReportSheet extends BottomSheetDialogFragment {
         send_bug_report.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email = "vasap283@gmail.com".toString();
+                String email = "easylearnapplication@gmail.com".toString();
                 String object = bug_theme.getSelectedItem().toString();
                 String bug_message = bug_text.getText().toString();
 
@@ -43,6 +43,7 @@ public class BugReportSheet extends BottomSheetDialogFragment {
 
                 try {
                     startActivity(Intent.createChooser(mIntent,"Send Email"));
+                    Toast.makeText(getContext(),"Письмо отправлено",Toast.LENGTH_LONG).show();
                 } catch (Exception e){
                     Toast.makeText(getContext(), e.getMessage().toString(),Toast.LENGTH_LONG).show();
                 }

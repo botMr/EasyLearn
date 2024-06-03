@@ -43,6 +43,7 @@
         <item>Практика</item>
         <item>Библиотека</item>
         <item>Аккаунт</item>
+        <item>Другое</item>
     </string-array>
     <string-array name="spinner_mode">
         <item>Выберите модель:</item>
