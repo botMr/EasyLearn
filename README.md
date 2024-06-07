@@ -8,7 +8,9 @@
                Тесты по одному тесту для заданий.
 
 ![b3dbafb2-27da-466c-adda-d0f7ca24e403](https://github.com/botMr/EasyLearn/assets/75548834/b3fbc1a7-4a18-4e05-bfae-727a1260cb0d)
+
 ![eece8427-3645-4e63-8071-62deeb7074d2](https://github.com/botMr/EasyLearn/assets/75548834/c4b6c5e4-7ece-4f15-a891-19a7a0d6cceb)
+
 ![2642f8fe-c3d3-40c8-a41c-5f65d74d40e2](https://github.com/botMr/EasyLearn/assets/75548834/bf0a2251-219c-4d52-a328-1900514e3117)
 
 Ссылка на скачивание apk приложения: https://disk.yandex.ru/d/oSUnjr6qGyWX2Q
